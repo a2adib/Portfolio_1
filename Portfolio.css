@@ -2,63 +2,147 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-a{
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
     text-decoration: none;
-    color: white;
-    list-style: none;
+    color: inherit;
 }
 
-li{
-    
-    display: inline;
-    height: 5vh;
-    width: 100%;
-    margin-left: 10%;
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5vw;
+}
+
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar{
-    background-color: black;
-    color: white;
-    margin-top: 5px 3vh;
     text-align: center;
-    
+}
+.img img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
 }
 
-.header{
-    background-color: purple;
-    width: 100%;
-    height: 300px;
-}
-
-
-.title{
-    font-size: 32px;
-    color: white;
-    
-    padding-left: 15px;
-    justify-content: center;
-}
-
-.img{
+.Hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: #1B3C53;
 }
 
-img{
-    width: 130px;
-    height: 120px;
-    border-radius: 10%;
-    padding-right: 15%;
+.Boxleft {
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    /* margin-left: vw ; */
 }
 
-.myinfo{
+.Boxright {
+    flex: 1;
+    text-align: center;
+    /* margin-right: 15vw ; */
+    padding: 5vw 0vw;
+}
+
+.Biography {
+    background-color: #456882;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.Biographytop {
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+.lifeinfo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    padding: 5px;
+    padding: 20px;
+    background-color: #F9F3EF;
+}
+
+.Boxleft {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    /* margin-left: vw ; */
+}
+
+.Boxright {
+    flex: 1;
+    text-align: center;
+    /* margin-right: 15vw ; */
+    
+}
+
+.sideleft {
+    flex: 1;
+    text-align: right;
+    padding: 1% 4% 4% 4%;
+}
+
+.sideright{
+    flex: 1;
+    text-align: left;
+    padding: 1% 4% 4% 4%;
+}
+
+.liheader{
+    text-align: center;
+}
+.heading {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+.lifeinformation {
+    background-color:  #F9F3EF;
+    padding-top: 3%;
+}
+
+.contact {
+    background-color: #456882;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contactinfo {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact header {
+    padding: 2%;
 }
